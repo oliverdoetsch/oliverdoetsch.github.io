@@ -23,7 +23,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 100%; 
+  font-family: 'Fjalla One', sans-serif;}
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
@@ -43,7 +44,8 @@ a:visited { color: #a0a; }
 }
 
 .posts li {
-  line-height: 1.75em;
+  //line-height: 1.75em;
+  margin-bottom: 2em
 }
 
 .posts span {

@@ -7,7 +7,7 @@ title: Landwanderung
   <h1>Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span>   <a href="{{ post.url }}">{{ post.title }}</a><p>{{ post.excerpt }}</p><a href="{{ post.url }}">mehr &raquo;</a></li>
+      <li><span>{{ post.date | date_to_string }}</span> | <a href="{{ post.url }}">{{ post.title }}</a><p>{{ post.excerpt }}</p><a href="{{ post.url }}">mehr &raquo;</a></li>
     {% endfor %}
   </ul>
 </div>
