@@ -53,7 +53,9 @@ a:visited { color: #a0a; }
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
 }
-
+.post img {
+	width: 100%
+}
 /*****************************************************************************/
 /*
 /* Site
